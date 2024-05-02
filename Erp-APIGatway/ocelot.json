@@ -6,7 +6,7 @@
     {
 
      
-          "DownstreamPathTemplate": "/api/product",
+          "DownstreamPathTemplate": "/api/manufacture",
           "DownstreamScheme": "https",
           "DownstreamHostAndPorts": [
             {
@@ -14,7 +14,7 @@
               "Port": 44337
             }
           ],
-          "UpstreamPathTemplate": "/gateway/product",
+          "UpstreamPathTemplate": "/gateway/manufacture",
           "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
       
     }

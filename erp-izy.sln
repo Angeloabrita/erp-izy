@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{C1E25909-967B-4FAA-82A1-B75BFAEF7E41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp-APIGateway", "Erp-APIGatway\Erp-APIGateway.csproj", "{FA340AFB-E255-4405-8AF6-1937E0FC1E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp-APIGatway", "Erp-APIGatway\Erp-APIGatway.csproj", "{FA340AFB-E255-4405-8AF6-1937E0FC1E8E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4B5C7146-02F0-4B2E-8E7F-AB3A0CF8E026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessController", "..\ProcessController\ProcessController\ProcessController.csproj", "{13A2E597-563F-47B3-A1A9-50AB4B648BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,16 @@ Global
 		{FA340AFB-E255-4405-8AF6-1937E0FC1E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA340AFB-E255-4405-8AF6-1937E0FC1E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA340AFB-E255-4405-8AF6-1937E0FC1E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A2E597-563F-47B3-A1A9-50AB4B648BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A2E597-563F-47B3-A1A9-50AB4B648BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A2E597-563F-47B3-A1A9-50AB4B648BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A2E597-563F-47B3-A1A9-50AB4B648BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13A2E597-563F-47B3-A1A9-50AB4B648BDD} = {4B5C7146-02F0-4B2E-8E7F-AB3A0CF8E026}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D96C5C64-A667-486A-80DF-CC979AE160F7}
