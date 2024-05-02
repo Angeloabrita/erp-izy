@@ -1,0 +1,6 @@
+@Erp_APIGatway_HostAddress = http://localhost:5142
+
+GET {{Erp_APIGatway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
