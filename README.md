@@ -8,7 +8,7 @@ Treinar o desenvolvimento de solução de microserviços usando .NET core seguindo 
 
 Arquitetura proposta 
 
-![Arquitetura do ERPIZY](https://github.com/Angeloabrita/whatsapp-link/blob/master/Docs/arch.jpg)
+![Arquitetura do ERPIZY](https://github.com/Angeloabrita/erp-izy/blob/main/Docs/arch.jpg)
 
 Texto GPTZADO
 
